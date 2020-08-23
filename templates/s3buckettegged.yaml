@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: 2010-09-09
+Resources: 
+  MyFirstBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: "cloudformation-anton-test-bucket2"
+      VersioningConfiguration:
+        Status: Enabled
+      Tags:
+        - Key: "Team"
+          Value: "Dev"
+        - Key: "Env"
+          Value: "Test"
