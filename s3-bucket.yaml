@@ -12,7 +12,7 @@ Parameters:
   TeamValue:
     Type: String
   AppValue:
-    Type: String
+    Type: String 
   SecondBucketOwnerValue:
     Type: String
   SecondBucketTeamValue:

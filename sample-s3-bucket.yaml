@@ -15,7 +15,7 @@ Parameters:
     Default: 'dev'
   OwnerValue:
     Type: String
-    Default: 'anton'
+    Default: # enter name
   S3Versioning:
     Type: String
     Default: 'Enabled'
